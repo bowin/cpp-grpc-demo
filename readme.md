@@ -4,9 +4,9 @@ c++ grpc demo under MacOS
 
 1. 安装依赖 protobuf, grpc
 
-安装 protobuf 自动获得 protoc
+>> 安装 protobuf 自动获得 protoc
 
-安装 grpc 自动安装 openssl, grpc_cpp_plugin
+>> 安装 grpc 自动安装 openssl, grpc_cpp_plugin
    
 2. 生成 proto 相关 cpp
 - 生成 pb
