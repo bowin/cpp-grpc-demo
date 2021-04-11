@@ -1,5 +1,5 @@
 # c++ grpc demo 
-c++ grpc demo under max
+c++ grpc demo under MacOs
 ## env setup 
 1. 安装依赖 protobuf, grpc
 安装 protobuf 自动获得 protoc
