@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.19)
 project(5)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXE_LINKER_FLAGS "-pthread")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -std=c++14 -fno-omit-frame-pointer")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -std=c++17 -fno-omit-frame-pointer")
 
 set(CMAKE_SKIP_BUILD_RPATH true)
 find_package(Protobuf REQUIRED)
